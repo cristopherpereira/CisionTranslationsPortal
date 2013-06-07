@@ -43,7 +43,6 @@
     <Compile Include="Account\AccountDTO.cs" />
     <Compile Include="Account\SessionDTO.cs" />
     <Compile Include="Account\LogInDTO.cs" />
-    <Compile Include="DoDelete.cs" />
     <Compile Include="Key\KeyDTO.cs" />
     <Compile Include="Key\LanguageDTO.cs" />
     <Compile Include="LogEntry\LogEntry.cs" />

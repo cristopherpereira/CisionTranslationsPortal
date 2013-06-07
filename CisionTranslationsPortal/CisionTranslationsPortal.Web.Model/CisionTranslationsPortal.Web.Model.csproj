@@ -8,8 +8,8 @@
     <ProjectGuid>{322A5C8B-59B7-4824-9517-D119732E5E29}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CisionTranslationsPortal.Model</RootNamespace>
-    <AssemblyName>CisionTranslationsPortal.Model</AssemblyName>
+    <RootNamespace>CisionTranslationsPortal.Web.Model</RootNamespace>
+    <AssemblyName>CisionTranslationsPortal.Web.Model</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,14 +42,19 @@
   <ItemGroup>
     <Compile Include="Account\AuthenticationModel.cs" />
     <Compile Include="Account\AccountModel.cs" />
-    <Compile Include="Account\LogEntryModel.cs" />
-    <Compile Include="Account\KeyModel.cs" />
-    <Compile Include="Account\KeyDetailModel.cs" />
-    <Compile Include="Account\SearchResultModel.cs" />
-    <Compile Include="Account\SearchRequestModel.cs" />
+    <Compile Include="Key\KeyDetailModel.cs" />
+    <Compile Include="Key\KeyModel.cs" />
+    <Compile Include="Key\LogEntryModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestResponse\SearchRequestModel.cs" />
+    <Compile Include="RequestResponse\SearchResultModel.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CisionTranslationsPortal.Common\CisionTranslationsPortal.Common.csproj">
+      <Project>{852D68EF-F36F-4E37-A23D-3824C8576421}</Project>
+      <Name>CisionTranslationsPortal.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

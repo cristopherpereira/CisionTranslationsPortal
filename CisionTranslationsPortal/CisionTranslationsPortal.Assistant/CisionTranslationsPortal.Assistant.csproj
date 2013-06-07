@@ -32,10 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MongoDB.Bson">
-      <HintPath>..\..\..\..\Users\tiago.nunes\Desktop\MongoCenas\CsharpDriver\MongoDB.Bson.dll</HintPath>
+      <HintPath>..\packages\MongoDB\MongoDB.Bson.dll</HintPath>
     </Reference>
     <Reference Include="MongoDB.Driver">
-      <HintPath>..\..\..\..\Users\tiago.nunes\Desktop\MongoCenas\CsharpDriver\MongoDB.Driver.dll</HintPath>
+      <HintPath>..\packages\MongoDB\MongoDB.Driver.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

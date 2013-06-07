@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="StructureMap">
-      <HintPath>..\..\..\CisionPoint\CisionPoint\IMS\CommonLib\StructureMap\StructureMap.dll</HintPath>
+      <HintPath>..\packages\StructureMap\StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
